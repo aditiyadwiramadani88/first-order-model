@@ -83,5 +83,5 @@ if __name__ == "__main__":
         print("Reconstruction...")
         reconstruction(config, generator, kp_detector, opt.checkpoint, log_dir, dataset)
     elif opt.mode == 'animate':
-        print("Animate...")
+        print("Animate....")
         animate(config, generator, kp_detector, opt.checkpoint, log_dir, dataset)
